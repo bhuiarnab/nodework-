@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title> Title Page </title>
+
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  background: white;
+  }
+
+  td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  }
+
+    .header-top, .header-bottom .header-label{
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .header-title{
+      width: 100%;
+      font-size: 2.2em;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .header-right{
+      text-align: center;
+      width: 100%;
+    }
+
+    .header-bottom, .header-top {
+      padding: 10px 15px;
+    }
+
+    .header-bottom .header-label-item{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .header-bottom .header-label-item:nth-child(2n) {
+        text-align: right;
+    }
+
+    .sub-table{
+      margin: 10px 30px;
+      background: lightgrey;
+    }
+
+</style>
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-top">
+        <div class="header-title">
+          Prem Industries
+        </div>
+        <div class="header-right">
+          <div class="header-label">
+            
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom">
+        <div class="header-label">
+          <div class="header-label-item">
+            GRN No.:{{GRNNo}}
+          </div>
+          <div class="header-label-item">
+            GRN Date:{{GRNDate}}
+          </div>
+          <div class="header-label-item">
+            Vendor No.:{{VendorNo}}
+          </div>
+          <div class="header-label-item">
+            Remarks:{{Remarks}}
+          </div>
+          <div class="header-label-item">
+              Plant Code:{{PlantCode}}
+            </div>
+            <div class="header-label-item">
+                Date:{{Date}}
+              </div>
+        </div>
+      </div>
+    <header>
+  </div>
+
+
+{{greeting}}
+</body>
+</html>

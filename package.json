@@ -1,0 +1,27 @@
+{
+  "name": "nodecode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "restart": "nodemon index.js"
+  },
+  "author": "Arnab",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "exceljs": "^1.14.0",
+    "express": "^4.17.1",
+    "formidable": "^1.2.1",
+    "hbs": "^4.0.4",
+    "html-pdf": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.3.0-beta2",
+    "mongoose": "^5.6.7",
+    "nodemon": "^1.19.1",
+    "uuidv4": "^4.0.0",
+    "validator": "^11.1.0"
+  }
+}
